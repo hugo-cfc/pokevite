@@ -95,4 +95,10 @@ const selectPokemon = async (pokemon: Pokemon) => {
 
   max-height: 75vh;
 }
+
+@media (max-width: 768px) {
+  .card-list {
+    max-height: 42vh;
+  }
+}
 </style>
